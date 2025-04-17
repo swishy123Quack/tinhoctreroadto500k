@@ -11,8 +11,8 @@ PASSWORD = 'your_password'
 LOGIN_URL = 'https://tinhoctre.vn/accounts/login/' 
 SUBMIT_URL = 'https://tinhoctre.vn/problem/digit/submit'
 
-MAX_SUBMISSIONS = 10
-SUBMISSION_DELAY = 1.0 # seconds
+MAX_SUBMISSIONS = 1000
+SUBMISSION_DELAY = 0.0 # seconds
 
 def login():
     login_url = LOGIN_URL
