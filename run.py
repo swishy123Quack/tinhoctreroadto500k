@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 
 session = requests.Session()
 
-USERNAME = 'UltimateWiener' 
-PASSWORD = 'T43r@6pqUJCKYLH' 
+USERNAME = 'your_username' 
+PASSWORD = 'your_password' 
 
 LOGIN_URL = 'https://tinhoctre.vn/accounts/login/' 
 SUBMIT_URL = 'https://tinhoctre.vn/problem/digit/submit'
